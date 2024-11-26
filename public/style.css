@@ -1,0 +1,87 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  header {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f8f9fa;
+    width: 100%;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  header p {
+    color: #666;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  #lookbook-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .lookbook-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lookbook-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .lookbook-item .description {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  footer {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #download-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #download-btn:hover {
+    background-color: #0056b3;
+  }
+  

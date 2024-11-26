@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WKND Lookbook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>WKND Lookbook</h1>
+      <p>Theme: <%= theme %></p>
+      <p>Name: <%= name %></p>
+      <p>Asset Location: <%= assetLocation %></p>
+    </header>
+    <main>
+      <div id="lookbook-grid"></div>
+    </main>
+    <footer>
+      <button id="download-btn">Download Lookbook</button>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

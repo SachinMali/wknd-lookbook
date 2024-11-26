@@ -1,0 +1,31 @@
+{
+  "name": "wknd-lookbook",
+  "version": "1.0.0",
+  "description": "WKND lookbook demoing OpenAPI-based AEM APIs usage.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.20.4"
+  },
+  "keywords": [
+    "AEM",
+    "APIs",
+    "OpenAPI-based",
+    "AEM",
+    "APIs",
+    "AEM",
+    "Integration"
+  ],
+  "author": "Adobe Tech Marketing",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2"
+  }
+}
